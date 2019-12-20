@@ -9,3 +9,5 @@ For the questions I tried to think of basic yet engaging questions based off mat
 This quiz relied heavily on functions which would activate at certain points of the quiz process. For instance the timer function activated when you pressed start, the show scores function would activate when the quiz was over, the hide questions element would activate once all questions had been answered, etc.
 
 
+
+

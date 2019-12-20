@@ -15,7 +15,7 @@ var questions = [{
   },
   {
     title: "What is the function of an array in JavaScript?",
-    choices: ["Hold many different values in one", "Shuffling the values", "Relaying information to other scripts", ""],
+    choices: ["Hold many different values in one", "Shuffling the values", "Relaying information to other scripts"],
     answer: "Hold many different values in one"
   },
 ];
@@ -38,15 +38,11 @@ function initializeQuestion() {
   }
 }
 
-function addButton(choice, rightAnswer) {
+function addButton(choice) {
   var el = document.createElement('div');
-  // add classes on element here
-
   el.setAttribute('data-choice', choice);
   el.innerHTML = choice;
-
   el.addEventListener('click', onButtonClick);
-
   document.querySelector('#answer-buttons-block').appendChild(el)
 }
 
