@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <div id="main-game" style="display: none;">
+      <div id="timer"></div>
+      <div id="question-title"></div>
+      <div id="answer-buttons-block">
+      </div>
+      <div id="game-score"></div>
+    </div>
+    <div id="intro">
+      <div class="title">JavaScript Quiz</div>
+      <input placeholder="Please type your name here!" id="name" type="text"/>
+      <div id="intro-start-button" onclick="initializeGame();">GO!</div>
+    </div>
+    <div id="end" style="display: none;">
+      <div class="title">Game Over!</div>
+      <div id="end-score"></div>
+      <div id="return-to-intro" onclick="reset();">Return</div>
+    </div>
+    
+    <script src="./fd.js"></script>
+  
+  </body>
+</html>
